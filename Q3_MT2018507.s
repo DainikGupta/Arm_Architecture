@@ -1,4 +1,4 @@
-	AREA    |.text|,CODE,READONLY
+	AREA    evenodd,CODE,READONLY
     EXPORT __main
     ENTRY
 	
@@ -18,3 +18,9 @@ LOOP2 	MOV R3, #1		;R3 WHEN SET WILL REPRESENT ODD NUMBER
 STOP    B STOP			;LOOP TO STOP THE  EXECUTE
 		ENDFUNC
 		END
+
+;This code tells whether the given number is either even or odd.
+;I have AND the number with 1, This will give the unit digit of the number
+;The unit digit is then compared with 0.
+;If this is equal the number is even, register R2 will be set.
+;If the result is not equal, the number is odd and register R3 is set.
