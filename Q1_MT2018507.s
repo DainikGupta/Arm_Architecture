@@ -21,3 +21,6 @@ loop2	SUB R2, R2, #1	;decrementing the count register
 stop    B stop			;loop to stop the execution
 		ENDFUNC
 		END
+
+;This code will give the fibonacci series(0,1,1,2,3,5,8,13,21,34,65)
+;The fibonacci series will be saved in the register, R3.
