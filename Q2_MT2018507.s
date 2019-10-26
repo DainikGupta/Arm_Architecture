@@ -1,4 +1,4 @@
-	AREA    |.text|,CODE,READONLY
+	AREA    largeno,CODE,READONLY
     EXPORT __main
     ENTRY
 __main    FUNCTION
