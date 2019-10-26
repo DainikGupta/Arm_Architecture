@@ -1,4 +1,4 @@
-	AREA    |.text|,CODE,READONLY
+	AREA    fibonacci,CODE,READONLY
     EXPORT __main
     ENTRY
 __main    FUNCTION
@@ -22,5 +22,6 @@ stop    B stop			;loop to stop the execution
 		ENDFUNC
 		END
 
-;This code will give the fibonacci series(0,1,1,2,3,5,8,13,21,34,65)
+;This code will give the fibonacci series(0,1,1,2,3,5,8,13,21,34,55,89)
 ;The fibonacci series will be saved in the register, R3.
+;I have wrote this code to give the first 10 numbers of the series.
