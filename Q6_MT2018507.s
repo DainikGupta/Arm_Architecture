@@ -1,4 +1,4 @@
-	AREA    |.text|,CODE,READONLY
+	AREA    gcd,CODE,READONLY
     EXPORT __main
     ENTRY
 	
